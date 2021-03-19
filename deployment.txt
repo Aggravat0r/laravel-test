@@ -1,0 +1,16 @@
+1. Создать БД и настроить файл .env
+2. Запустить миграции для создания структуры БД (php artisan migrate)
+3. Запустить тесты для заполнение БД (php artisan test)
+4. Зарегистрироваться
+5. API доступны по ссылкам:
+
+= api/get_companies
+- api/get_clients/{company_id}
+- api/get_client_companies/{client_id}
+
+С заголовками:
+Authorization: Bearer {token}
+Accept: application/json
+
+Токен генерируется при регистрации и хранится в БД
+

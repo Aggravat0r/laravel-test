@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'companies_list' => 'Список компаний',
+    'clients_list' => 'Список клиентов',
+    "title" => "Название",
+    "city_name" => "Город",
+    "phone" => "Номер телефона",
+    "email" => "E-mail",
+    "website" => "Адрес сайта",
+    "category" => "Категория",
+    "subcategory" => "Подкатегория",
+    "fullname" => "ФИО",
+    "city" => "Город",
+    "company_edit" => "Редактирование компании",
+    "company_create" => "Добавление компании",
+    "client_edit" => "Редактирование клиента",
+    "client_create" => "Добавление клиента",
+    "save" => "Сохранить",
+    "create" => "Добавить",
+    "success_edit_company" => "Компания успешно обновлена",
+    "success_create_company" => "Компания успешно добавлена",
+    "success_delete_company" => "Компания успешно удалена",
+    "success_edit_client" => "Клиент успешно обновлен",
+    "success_create_client" => "Клиент успешно добавлен",
+    "success_delete_client" => "Клиент успешно удален",
+];
